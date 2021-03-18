@@ -4,7 +4,9 @@
   "description": "Express API for XKCD color survey data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/gitwikc/xkcd-color-names/issues"
   },
-  "homepage": "https://github.com/gitwikc/xkcd-color-names#readme"
+  "homepage": "https://github.com/gitwikc/xkcd-color-names#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
